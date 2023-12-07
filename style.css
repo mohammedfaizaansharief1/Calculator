@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow: hidden;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* styling of container */
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    
+}
+/* Styling of buttons using the class name button */
+.button{
+    width: 60px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: grey;
+    color: white;
+}
+/* hover effect to the buttons */
+.button:hover{
+    background-color: white;
+    color: black;
+    border: black 1px solid;
+}
+/* styling for the zero button */
+.zero{
+    width: 123px;
+}
+/* styling for the input text */
+.input-text{
+    text-align: right;
+    padding: 5px;
+    font-size: 1.5rem;
+    width: 240px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    /* border: none; */
+}
+/* styling for the heading 1 */
+h1{
+    margin-bottom: 40px;
+    font-size: 3rem;
+}
