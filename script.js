@@ -14,7 +14,7 @@ Array.from(buttons).forEach((button)=>{
             
             document.querySelector('input').value = string;
         }
-        else if(e.target.innerHTML == 'DEL'){
+        else if(e.target.innerHTML === 'DEL'){
             string = string.slice(0,-1)
             document.querySelector('input').value = string;
         }
@@ -26,11 +26,11 @@ Array.from(buttons).forEach((button)=>{
             // document.querySelector('input').value = string;
 
             try {
-                var result = eval(document.querySelector('.input').value);
+                var result = eval(document.querySelector('input').value);
                 result = (result / 100).toFixed(2);
-                document.querySelector('.input').value = result;
+                document.querySelector('input').value = result;
             } catch (error) {
-                document.querySelector('.input').value = 'Error';
+                document.querySelector('input').value = 'Error';
             }
         }
         else{
